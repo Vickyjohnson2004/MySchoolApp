@@ -18,13 +18,13 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="/login"
+              href="/Login"
               className="inline-block px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md text-base font-medium transition"
             >
               Login
             </Link>
             <Link
-              href="/register"
+              href="/Register"
               className="inline-block px-6 py-3 border border-indigo-600 text-indigo-600 hover:bg-indigo-50 rounded-md text-base font-medium transition"
             >
               Create an Account

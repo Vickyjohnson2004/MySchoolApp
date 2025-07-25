@@ -88,17 +88,14 @@ export default function Header() {
           <Link href="/about" className="block py-2 border-b border-blue-500">
             About
           </Link>
-          <Link
-            href="/Features"
-            className="block py-2 border-b border-blue-500"
-          >
+          <Link href="/feature" className="block py-2 border-b border-blue-500">
             Features
           </Link>
           <Link href="/contact" className="block py-2 border-b border-blue-500">
             Contact
           </Link>
 
-          <div className="border-t border-blue-500 pt-2">
+          <div className="border-t border-blue-500 pt-2" cd>
             <p className="text-sm mb-1">Login as:</p>
             <Link href="/login" className="block py-1">
               Student
